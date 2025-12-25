@@ -1,0 +1,197 @@
+index.html<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dobay Barnala LA5 Welfare Organization</title>
+
+<style>
+body{
+    margin:0;
+    font-family:"Noto Nastaliq Urdu","Arial",sans-serif;
+    background:#f4f6f5;
+    direction:rtl;
+}
+
+header{
+    background:#0b5d3b;
+    color:white;
+    text-align:center;
+    padding:25px 15px;
+}
+
+header h1{
+    margin:0;
+    font-size:26px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:15px;
+}
+
+section{
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0b5d3b;
+    border-bottom:2px solid #0b5d3b;
+    padding-bottom:5px;
+    font-size:20px;
+}
+
+ul{
+    padding-right:20px;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+.donate{
+    background:#e9fff5;
+    border:2px solid #0b5d3b;
+    padding:15px;
+    border-radius:10px;
+}
+
+.vote{
+    background:#fff3cd;
+    border:2px solid #ffc107;
+    padding:15px;
+    border-radius:10px;
+}
+
+button{
+    background:#0b5d3b;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    font-size:15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#09472d;
+}
+
+.whatsapp{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:10px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    margin-top:10px;
+}
+
+footer{
+    background:#0b5d3b;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+</style>
+
+<script>
+function submitVote(){
+    alert("آپ کی رائے محفوظ کر لی گئی ہے۔ شکریہ!");
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1>Dobay Barnala LA5 Welfare Organization</h1>
+<p>آزاد کشمیر | فلاحی، تعلیمی اور انسانی خدمت کا مشن</p>
+</header>
+
+<section>
+<h2>ہمارا تعارف</h2>
+<p>
+Dobay Barnala LA5 Welfare Organization ایک غیر سیاسی، غیر منافع بخش فلاحی ادارہ ہے
+جو تعلیم، صحت اور انسانی خدمت کے میدان میں کام کر رہا ہے۔
+ہمارا مقصد مستحق افراد کی مدد اور معاشرے میں بہتری لانا ہے۔
+</p>
+</section>
+
+<section>
+<h2>ہمارا مشن</h2>
+<ul>
+<li>غریب اور مستحق بچوں کی تعلیم</li>
+<li>بیوہ خواتین اور یتیموں کی مدد</li>
+<li>طبی امداد اور فری میڈیکل کیمپس</li>
+<li>شادی اور ہنگامی حالات میں معاونت</li>
+<li>شفاف اور دیانت دار فلاحی نظام</li>
+</ul>
+</section>
+
+<section>
+<h2>قواعد و ضوابط</h2>
+<ul>
+<li>ادارہ غیر سیاسی ہے</li>
+<li>تمام فیصلے مشاورت سے ہوں گے</li>
+<li>تمام عطیات شفاف طریقے سے خرچ ہوں گے</li>
+<li>بدعنوانی کسی صورت برداشت نہیں</li>
+<li>تمام ممبران قواعد کے پابند ہوں گے</li>
+</ul>
+</section>
+
+<section>
+<h2>عطیات / Donation Details</h2>
+<div class="donate">
+<p><strong>Bank:</strong> Allied Bank – Barnala Branch (1419)</p>
+<p><strong>IBAN:</strong> PK82ABPA0010152698760012</p>
+<p><strong>Account Title:</strong> Muhammad Waris & Farman Ali</p>
+
+<hr>
+
+<p><strong>Pakistan Contact:</strong></p>
+<p>0342-9842301<br>0305-5742301</p>
+
+<p><strong>Italy WhatsApp:</strong></p>
+<a class="whatsapp" href="https://wa.me/393482784434" target="_blank">
+WhatsApp پر رابطہ کریں
+</a>
+
+<p><strong>Contact Person:</strong> Malik Muhammad Waris Awan</p>
+</div>
+</section>
+
+<section>
+<h2>ووٹنگ سسٹم</h2>
+<div class="vote">
+<p>ادارے کے فیصلے اکثریتی رائے سے کیے جاتے ہیں۔</p>
+
+<form>
+<input type="radio" name="vote"> میں فیصلے کے حق میں ہوں<br><br>
+<input type="radio" name="vote"> میں فیصلے کے خلاف ہوں<br><br>
+<button type="button" onclick="submitVote()">Submit Vote</button>
+</form>
+</div>
+</section>
+
+<section>
+<h2>اہم نوٹس</h2>
+<p>
+یہ ادارہ صرف خدمتِ خلق کے لیے کام کرتا ہے۔
+آپ کا دیا گیا ہر عطیہ کسی نہ کسی مستحق تک ضرور پہنچایا جاتا ہے۔
+اللہ تعالیٰ ہم سب کو خدمت انسانیت کی توفیق عطا فرمائے۔ آمین
+</p>
+</section>
+
+<footer>
+© 2025 Dobay Barnala LA5 Welfare Organization – All Rights Reserved
+</footer>
+
+</body>
+</html>
